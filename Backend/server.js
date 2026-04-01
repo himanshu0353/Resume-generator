@@ -5,7 +5,7 @@ const connectToDB = require('./src/config/database');
 const invokeGenAi = require('./src/services/ai.service');
 
 connectToDB();
-invokeGenAi();
+invokeGenAi;
 app.listen(3000, () => {
     console.log(`server is running on port 3000`);
 })
